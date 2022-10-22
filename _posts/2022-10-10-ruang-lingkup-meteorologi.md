@@ -7,6 +7,9 @@ tags: [met]
 toc: true
 pin: true 
 --- 
+
+<div style="text-align: right;"><input onclick="window.print()" type="button" value="Print this page" /></div><br>
+
 Meteorologi merupakan bagian dari ilmu atmosfer dengan fokus studi pada atmosfer yang berhubungan langsung dengan kehidupan manusia, yaitu lapisan terendah (troposfer), dimana cuaca terjadi pada lapisan tersebut. Fokus utama dari studi meteorologi adalah memahami setiap gerak dan sirkulasi atmosfer yang mengakibatkan terjadinya cuaca serta penekanannya pada prediksi di masa yang akan datang berdasarkan data observasi atau data model. Meteorologi juga bisa dibilang termasuk dalam ranah lingkup ilmu geofisika sebab dalam mengupayakan pemahaman gerak atmosfer berikut dengan prediksinya memanfaatkan hukum-hukum fisika.
 
 ## Fisika Meteorologi
