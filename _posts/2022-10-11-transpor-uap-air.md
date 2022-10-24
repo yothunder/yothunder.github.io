@@ -11,19 +11,19 @@ math: true
 
 Sebagaimana yang kita tahu, air di permukaan dan atmosfer bumi secara kontinu mengalami transformasi dari satu fase ke fase lain. Proses dauriah semacam itu terjadi karena bertujuan untuk menjaga keseimbangan komponen air di laut, darat, dan atmosfer. 
 
-Meskipun komposisinya tidak lebih dari 4%, air -yang berfase gas atau uap air- di atmosfer memegang peranan sangat penting dalam dinamika cuaca dan iklim. Uap air berpindah dari tempat asalnya di laut ke daratan atau dari satu tempat ke tempat lain dibantu oleh sirkulasi atmosfer yang prosesnya dikenal sebagai transpor uap air.
+Meskipun komposisinya tidak lebih dari 4%, air -yang berfase gas atau uap air- di atmosfer memegang peranan sangat penting dalam dinamika cuaca dan iklim. Uap air berpindah dari tempat asalnya di laut ke daratan atau dari satu tempat ke tempat lain dibantu oleh sirkulasi atmosfer yang prosesnya dikenal sebagai transpor uap air. Istilah transpor uap air juga dikenal sebagai [*vertically integrated moisture flux*](https://yothunder.github.io/posts/moisture-flux-divergence/){:target="_blank"}.
 
-Transpor uap air tidak hanya berperan penting dalam siklus hidrologi. Dari perspektif meteorologi, proses ini juga berperan dalam mengatur masa hidup dari fenomena cuaca tertentu seperti siklon tropis, sistem konvektif skala meso, *cold surge*, hingga *atmospheric river*.
+Transpor uap air tidak hanya berperan penting dalam siklus hidrologi. Dari perspektif meteorologi, proses ini juga berperan dalam mengatur masa hidup dari fenomena cuaca tertentu seperti siklon tropis, sistem konvektif skala meso, *cold surge*, hingga *atmospheric river*, yang pada akhirnya bertanggung jawab sebagai faktor dominan dalam bencana hidrometeorologi.
 
 ## Formula
 
-Pada dasarnya, transpor uap air merupakan salah satu komponen yang terdapat di persamaan anggaran air atmosfer (*atmospheric water budget*).
+Pada dasarnya, transpor uap air merupakan salah satu komponen yang terdapat di persamaan [anggaran air atmosfer (*atmospheric water budget*)](https://yothunder.github.io/posts/budget-air-atmosfer/){:target="_blank"}.
 
-$$ E-P = \frac{\partial <q>}{\partial t} + \nabla \cdot <q\vec{V}> + \frac{\partial <q\omega>}{\partial p} $$
+$$ E-P = \frac{\partial <q>}{\partial t} + \nabla \cdot <q\vec{V}> + \frac{\partial <q\omega>}{\partial p} \tag{1} $$
 
 dimana
 
-$$ <\cdot> = \frac{1}{g} \int_{ps}^{pt} (\cdot) dp \tag{1}$$
+$$ <\cdot> = \frac{1}{g} \int_{ps}^{pt} (\cdot) dp $$
 
 $ E-P = $ Evaporasi-Presipitasi $(mm)$<br>
 $ q   = $ kelembapan spesifik $(kg/kg)$<br>
@@ -34,8 +34,7 @@ $ g = $ gravitasi $(m/s^2)$<br>
 $ t = $ waktu $(s)$<br>
 <!---$ \nabla = $cek paper Moisture and Energy Budget Perspectives on Summer Drought in North China--><br>
 
-
-Transpor uap air merupakan besaran vektor. Pada persamaan diatas, transpor uap air termasuk dalam suku kedua $$ (<qV>) $$. Untuk mengetahui daerah mana yang menjadi hulu dan hilir (*source and sink*) dari transpor uap air, maka besaran vektor harus diubah menjadi skalar melalui proses divergensi atau konvergensi $$ (\nabla \cdot <qV>) $$.
+Transpor uap air merupakan besaran vektor. Pada Pers. 1, transpor uap air termasuk dalam suku kedua $$ (<q\vec{V}>) $$. Untuk mengetahui daerah mana yang menjadi hulu dan hilir (*source and sink*) dari transpor uap air, maka besaran vektor harus diubah menjadi skalar melalui proses divergensi atau konvergensi $$ (\nabla \cdot <q\vec{V}>) $$.
 
 $$ <q\vec{V}> = \frac{1}{g} \int_{1000mb}^{100mb} (q\vec{V}) dp \tag{2}$$
 
@@ -165,3 +164,4 @@ end
 Gambar berikut merupakan transpor uap air berikut dengan divergensinya pada kejadian *cold surge* selama periode tahun 2010-2019.
 
 ![Transpor uap air](https://raw.githubusercontent.com/yothunder/yothunder.github.io/main/img/posts/vimfd.png){: .shadow }
+<p style="text-align: center; font-size: 14px">Transpor uap air berikut dengan divergensinya pada kasus <em>cold surge</em> (CS) dan <em>cross equatorial northerly surge</em> (CENS). Nilai positif (negatif) menandakan divergensi (konvergensi) dari transpor uap air.</p>
