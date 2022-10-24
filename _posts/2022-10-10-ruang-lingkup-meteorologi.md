@@ -10,6 +10,11 @@ pin: true
 
 <div style="text-align: right;"><input onclick="window.print()" type="button" value="Print this page" /></div><br>
 
+![Cumulonimbus](https://raw.githubusercontent.com/yothunder/yothunder.github.io/main/img/posts/cloudsfromabove.jpg){: .shadow}
+<p style="text-align: center; font-size: 14px">Credit: <a href="https://earthobservatory.nasa.gov/images/149490/cloudscape-at-dawn-northwest-atlantic" target="_blank">nasa.gov</a></p>
+
+> *We just take it for granted for every daily sign from nature. Have we ever realize that every single detail its came from the deepest love from the creator*?
+
 Meteorologi merupakan bagian dari ilmu atmosfer dengan fokus studi pada atmosfer yang berhubungan langsung dengan kehidupan manusia, yaitu lapisan terendah (troposfer), dimana cuaca terjadi pada lapisan tersebut. Fokus utama dari studi meteorologi adalah memahami setiap gerak dan sirkulasi atmosfer yang mengakibatkan terjadinya cuaca serta penekanannya pada prediksi di masa yang akan datang berdasarkan data observasi atau data model. Meteorologi juga bisa dibilang termasuk dalam ranah lingkup ilmu geofisika sebab dalam mengupayakan pemahaman gerak atmosfer berikut dengan prediksinya memanfaatkan hukum-hukum fisika.
 
 ## Fisika Meteorologi
