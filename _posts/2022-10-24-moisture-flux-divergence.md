@@ -1,7 +1,7 @@
 ---
 title: Moisture Flux Divergence
 author: wtyo
-date: 2022-10-24 07:00:00 +0700 
+date: 2022-10-31 07:00:00 +0700 
 categories: [Blogging] 
 tags: [met]
 math: true

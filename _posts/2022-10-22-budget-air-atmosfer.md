@@ -1,7 +1,7 @@
 ---
 title: Budget Air Atmosfer
 author: wtyo
-date: 2022-10-22 10:00:00 +0700 
+date: 2022-10-24 10:00:00 +0700 
 categories: [Blogging] 
 tags: [met]
 math: true
@@ -184,7 +184,7 @@ begin
 
     mfd_dpg        = mfd*dpgq                         ;  [g/(kg-s)][kg/m2] => [g/(m2-s)]
     imfd           = dim_sum_n(mfd_dpg, 1)
-    imfd@long_name = "Integrated Mass Wgt MFD" 
+    imfd@long_name = "Integrated Mass Wgt MFD"
     imfd@LONG_NAME = "Integrated Mass Weighted Moisture Flux Divergence" 
     imfd@units     = "(kg/m**2)/s"
     copy_VarCoords(u(:,0,:,:), imfd)               ; (time,lat,lon)
