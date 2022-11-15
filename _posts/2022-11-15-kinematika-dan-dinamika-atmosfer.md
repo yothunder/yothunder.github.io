@@ -26,7 +26,7 @@ Persamaan yang mendeskripsikan gerakan atmosfer melibatkan tidak hanya satu vari
     $$ \frac{\partial h}{\partial x} = \frac{\partial\left((x-3)^2 \cos(y) \right)}{\partial y} = (x-3)^2 -\sin(y) = -(x-3)^2 \sin(y) $$
 <br>
 
-Cuaca sebetulnya hanya berbicara mengenai angin (gerakan udara secara horizontal dan vertikal) dan akibat dari adanya angin tersebut. Karena angin memiliki nilai dan arah, maka angin termasuk dalam vektor. Hubungan antar vektor dapat diketahui melalui operator produk dot dan produk cross. Manipulasi produk tersebut sering diterapkan dalam dimensi dua dan tiga. Maka, operator del ($\nabla$) berguna dalam hal ini. Sederhananya, del merupakan operator yang menurunkan vektor untuk demua arah dua atau tiga dimensi $(x, y, z)$.
+Cuaca sebetulnya hanya berbicara mengenai angin (gerakan udara secara horizontal dan vertikal) dan akibat dari adanya angin tersebut. Karena angin memiliki nilai dan arah, maka angin termasuk dalam vektor. Hubungan antar vektor dapat diketahui melalui operator produk dot dan produk cross. Manipulasi produk tersebut sering diterapkan dalam dimensi dua dan tiga. Maka, operator del ($\nabla$) berguna dalam hal ini. Sederhananya, del merupakan operator yang menurunkan vektor untuk semua arah dua atau tiga dimensi $(x, y, z)$.
 
 $$ \nabla = \left(\frac{\partial}{\partial x}\right)\hat{i} + \left(\frac{\partial}{\partial y}\right)\hat{j} + \left(\frac{\partial}{\partial z}\right)\hat{k} $$
 

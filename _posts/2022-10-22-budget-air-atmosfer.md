@@ -52,7 +52,7 @@ $$\frac{\partial <q\omega>}{\partial p} =$$ divergensi vertikal dari transpor ua
 
 *Budget* air atmosfer dapat dikalkulasi berdasarkan data reanalisis menggunakan parameter angin horizontal ($u$ dan $v$), kelembapan spesifik (q), dan kecepatan vertikal ($Pa/s$). Lapisan atmosfer dapat disesuaikan dari lapisan permukaan (atau 1000 hPa) hingga lapisan atas troposfer (biasanya 100 hPa). Persamaan *budget* air atmosfer biasanya dikalkulasi untuk rata-rata wilayah tertentu.
 
-```bash
+```ncl
 
 undef("moisture_budget")
 function moisture_budget(time[*]:numeric,p,u,v,q,omega,npr[1]:integer,lat,lon,opt[1]:logical)
