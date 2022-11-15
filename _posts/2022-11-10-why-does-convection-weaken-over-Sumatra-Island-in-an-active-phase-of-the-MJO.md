@@ -23,8 +23,8 @@ Berdasarkan data observasi (awal-Desember), teramati bahwa aktivitas konvektif t
 
 Namun, pada fase MJO aktif (mid-Desember), aktivitas konvektif
 
-- ditekan (suppressed) pada *afternoon* dan *midnight*, serta 
-- tertunda (delayed) pada *afternoon*.
+- ditekan (*suppressed*) pada *afternoon* dan *midnight*, serta 
+- tertunda (*delayed*) pada *afternoon*.
 
 Kondisi demikian juga tersimulasikan dengan baik oleh model numerik.
 
@@ -36,6 +36,6 @@ Profil fisis atmosfer menunjukkan bahwa pada fase MJO, lapisan troposfer menjadi
 
 Analisis berdasarkan luaran model numerik menunjukkan bahwa melemahnya angin laut bukan disebabkan oleh penurunan perbedaan temperatur darat-laut. Namun, lebih disebabkan oleh efek stagnasi ofografis.
 
-Di sisi lain, peningkatan awan stratiform mengakibatkan pendinginan evaporatif di mid-troposfer dan memunculkan susidensi berskala pulau pada malam hari. Hal ini yang kemudian mengurangi aktivitas awan konvektif pada malam hari.
+Di sisi lain, peningkatan awan stratiform mengakibatkan pendinginan evaporatif di mid-troposfer dan memunculkan subsidensi berskala pulau pada malam hari. Hal ini yang kemudian mengurangi aktivitas awan konvektif pada malam hari.
 
 Untuk lebih lengkapnya bisa membaca di tautan berikut [MWR-D-21-0251.1](https://journals.ametsoc.org/view/journals/mwre/150/4/MWR-D-21-0251.1.xml){:target="_blank"}

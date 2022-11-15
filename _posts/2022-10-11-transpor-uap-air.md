@@ -38,7 +38,7 @@ Transpor uap air merupakan besaran vektor. Pada Pers. 1, transpor uap air termas
 
 $$ <q\vec{V}> = \frac{1}{g} \int_{1000mb}^{100mb} (q\vec{V}) dp \tag{2}$$
 
-Transpor uap air, berdasarkan Pers. 2, dikenal juga sebagai *vertically integrated moisture flux*. Simbol *nabla* ($\nabla$) merupakan operator gradien horizontal, yang mentransformasikan besaran vektor (transpor uap air, $$ (<qV>) $$) ke besaran skalar (divergensi transpor uap air, $$ (\nabla \cdot <qV>) $$). $\nabla = \left(\frac{\partial}{\partial x}\right)\hat{i} + \left(\frac{\partial}{\partial y}\right)\hat{j}.$
+Transpor uap air, berdasarkan Pers. 2, dikenal juga sebagai *vertically integrated moisture flux*. Simbol *nabla* ($\nabla$) merupakan operator divergen horizontal, yang mentransformasikan besaran vektor (transpor uap air, $$ (<qV>) $$) ke besaran skalar (divergensi transpor uap air, $$ (\nabla \cdot <qV>) $$). $\nabla = \left(\frac{\partial}{\partial x}\right)\hat{i} + \left(\frac{\partial}{\partial y}\right)\hat{j}.$
 
 ## Implementasi di NCL
 
