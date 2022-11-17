@@ -46,16 +46,55 @@ Ruas kiri merupakan *total derivative* yang merupakan perubahan yang terjadi pad
 
 $$ \frac{\partial T}{\partial t} = \frac{DT}{Dt} - \vec{V} \cdot \vec{\nabla}T \tag{2} $$
 
+dimana suku kedua pada ruas kanan merupakan adveksi. Sederhananya, adveksi merupakan nilai negatif produk dot dari gradien suatu variabel dengan vektor angin.
 <!--Jelaskan mengapa adveksi dapat menjelaskan hubungan antara kerangka eulerian dan lagrangian.-->
 
 ## Kinematika atmosfer
 
-> Cek ency of atmos sci
+Gerakan udara di atmosfer dapat direpresentasikan melalui beberapa cara.
+1. Vektor angin
+2. Wind barb
+3. Streamline
+4. Isotach
+5. Trayektori
+6. Streakline
+7. Streamfunction
+8. Velocity potential
+
+Dalam praktiknya, untuk analisis dan prediksi berdasarkan peta cuaca, poin nomor 1 hingga 3 yang paling sering digunakan. Isotcah sudah sangat jarang digunakan karena kecepatan angin lebih baik direpresentasikan dalam bentuk *shaded* yang di*overlay* dengan streamline, khususnya dari output model numerik. Sementara itu, poin 5 hingga terakhir bermanfaat untuk menganalisis secara mendetail, khususnya dalam ranah penelitian.
+
+Setidaknya terdapat empat properti dasar dari kinematika atmosfer, yaitu translasi, deformasi, rotasi, dan divergensi.
+
+### 1. Translasi
+
+Translasi merupakan gerakan tanpa perubahan bentuk dan orientasi. Translasi mungkin terdengar mustahil terjadi pada gerak udara di atmosfer yang sifatnya *chaotic*. Maka, dalam praktiknya, jenis gerak ini tidak begitu digunakan selain hanya pelengkap teori.
+
+### 2. Deformasi
+
+m
+
+### 3. Rotasi
+
+### 4. Divergensi
+
+<!--Pada peta cuaca, angin dapat direpresentasikan sebagai vektor angin, wind barb, dan streamline. Secara konvensional, angin yang diamati berdasarkan stasiun-stasiun pengamatan meteorologi biasanya ditampilkan dalam bentuk wind barb. Kemudian, streamline dibuat berdasarkan data-data observasi untuk tiap titik tersebut.
+
+Sederhananya, streamline merupakan garis yang paralel dengan vector angin dan menghubungkan nilai yang sama antar titik atau lokasi dalam satu waktu. Ini tentu berbeda dengan trayektori yang merupakan lintasan suatu parsel udara terhadap waktu.
+-->
 
 ## Dinamika atmosfer
 
 > Cek ency of atmos sci
 
-## Notes
+## Penerapan
 
-[^1]: Istilah parsel udara digunakan untuk menggambarkan gumpalan atmosfer yang memiliki karakteristik tersendiri dibandingkan udara sekitar atau lingkungannya. Meskipun istilah ini terkesan imajinatif, penggunaanya cukup penting dan telah menjadi semacam standar dalam studi meteorologi untuk menjelaskan pergerakan udara di atmosfer.
+> Penerapan menggunakan peta cuaca
+
+## Refs & Notes
+
+1: Encyclopedia of atmospheric sciences<br>
+2: [https://www.e-education.psu.edu/meteo300/node/694](https://www.e-education.psu.edu/meteo300/node/694){:target="_blank"}<br>
+3: [https://www.e-education.psu.edu/meteo300/node/695](https://www.e-education.psu.edu/meteo300/node/695){:target="_blank"}<br>
+4: [https://www.e-education.psu.edu/meteo300/node/696](https://www.e-education.psu.edu/meteo300/node/696){:target="_blank"}<br>
+
+[^1]: Istilah parsel udara digunakan untuk menggambarkan gumpalan udara yang memiliki karakteristik tersendiri dibandingkan udara sekitar atau lingkungannya. Meskipun istilah ini terkesan imajinatif, penggunaanya cukup penting dan telah menjadi semacam standar dalam studi meteorologi untuk menjelaskan pergerakan udara di atmosfer.
