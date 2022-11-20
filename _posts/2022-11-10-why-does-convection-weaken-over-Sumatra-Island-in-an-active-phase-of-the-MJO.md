@@ -34,7 +34,7 @@ Kondisi demikian juga tersimulasikan dengan baik oleh model numerik.
 
 Profil fisis atmosfer menunjukkan bahwa pada fase MJO, lapisan troposfer menjadi lebih kering. Pada fase aktif MJO, terdapat peningkatan tutupan awan jenis stratifom. Dengan demikian, insolasi menjadi menurun intensitasnya sehingga terjadi penurunan perbedaan temperatur darat-laut. Di sisi lain, teramati juga bahwa angin laut tertunda dan melemah yang kemudian mengakibatkan inisiasi konvektif pada *afternoon* juga tertunda dan melemah.
 
-Analisis berdasarkan luaran model numerik menunjukkan bahwa melemahnya angin laut bukan disebabkan oleh penurunan perbedaan temperatur darat-laut. Namun, lebih disebabkan oleh efek stagnasi ofografis.
+Analisis berdasarkan luaran model numerik menunjukkan bahwa melemahnya angin laut bukan disebabkan oleh penurunan perbedaan temperatur darat-laut. Namun, lebih disebabkan oleh efek stagnasi orografis.
 
 Di sisi lain, peningkatan awan stratiform mengakibatkan pendinginan evaporatif di mid-troposfer dan memunculkan subsidensi berskala pulau pada malam hari. Hal ini yang kemudian mengurangi aktivitas awan konvektif pada malam hari.
 

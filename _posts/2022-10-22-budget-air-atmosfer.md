@@ -52,7 +52,7 @@ $$\frac{\partial <q\omega>}{\partial p} =$$ divergensi vertikal dari transpor ua
 
 *Budget* air atmosfer dapat dikalkulasi berdasarkan data reanalisis menggunakan parameter angin horizontal ($u$ dan $v$), kelembapan spesifik (q), dan kecepatan vertikal ($Pa/s$). Lapisan atmosfer dapat disesuaikan dari lapisan permukaan (atau 1000 hPa) hingga lapisan atas troposfer (biasanya 100 hPa). Persamaan *budget* air atmosfer biasanya dikalkulasi untuk rata-rata wilayah tertentu.
 
-```ncl
+```
 
 undef("moisture_budget")
 function moisture_budget(time[*]:numeric,p,u,v,q,omega,npr[1]:integer,lat,lon,opt[1]:logical)
@@ -216,11 +216,12 @@ end
 
 ## Contoh Output
 
-Gambar berikut menampilkan komponen dari persamaan *budget* air atmosfer tanpa mengikutsertakan suku ketiga (*vertical MFD*). Gambar divisualisasikan menggunakan GrADS.
+Gambar berikut menampilkan komponen dari persamaan *budget* air atmosfer tanpa mengikutsertakan suku ketiga (*vertical MFD*). Gambar divisualisasikan menggunakan GrADS[^2].
 
 ![Transpor uap air](https://raw.githubusercontent.com/yothunder/yothunder.github.io/main/img/posts/moisturebudget.png){: .shadow }
 <p style="text-align: center; font-size: 14px">Komponen dari persamaan <em>budget</em> air atmosfer untuk kasus <em>cold surge</em> (CS) dan <em>cross equatorial northerly surge</em> (CENS) selama periode tahun 2010-2019</p>
 
-## Ref
+## Notes
 
 [^1]: Banacos, P. C., & Schultz, D. M. (2005). The Use of Moisture Flux Convergence in Forecasting Convective Initiation: Historical and Operational Perspectives, Weather and Forecasting, 20(3), 351-366. [https://doi.org/10.1175/WAF858.1](https://doi.org/10.1175/WAF858.1){:target="_blank"}
+[^2]: Ploting multiple panel semacam output diatas seringkali cukup membosankan apabila kita mengaturnya satu per satu. Menggunakan metode iterasi tentu lebih efisien untuk menyelesaikan pekerjaan berulang. Cek postingan berikut [Looping untuk Plotting Multi Panel di GrADS](https://yothunder.github.io/posts/multi-panel-plot-di-grads/){:target="_blank"}

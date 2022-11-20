@@ -44,7 +44,7 @@ Transpor uap air, berdasarkan Pers. 2, dikenal juga sebagai *vertically integrat
 
 Transpor uap air dapat dikalkulasi berdasarkan data reanalisis menggunakan parameter angin horizontal ($u$ dan $v$), dan kelembapan spesifik (q). Lapisan atmosfer dapat disesuaikan dari lapisan permukaan (atau 1000 hPa) hingga lapisan atas troposfer (biasanya 100 hPa).
 
-```ncl
+```
 
 begin
 
