@@ -2,12 +2,12 @@
 title: Looping untuk Plotting Multi Panel di GrADS
 author: wtyo
 date: 2022-11-14 07:00:00 +0700 
-categories: [Blogging] 
-tags: [met]
+categories: [Blogging]
+tags: [met, data visualization]
 math: true
 ---
 
-Untuk memplot banyak panel di GrADS, kita bisa menggunakan perintah `set parea`[^1] atau `set vpage`[^2]. Fungsi keduanya serupa, namun implementasinya tidak sama dan kadang mungkin cukup membingungkan bagi yang baru belajar GrADS. 
+Untuk memplot banyak panel di GrADS, kita bisa menggunakan perintah `set parea`[^1] atau `set vpage`[^2]. Fungsi keduanya serupa, namun implementasinya tidak sama dan kadang mungkin cukup membingungkan bagi yang baru belajar GrADS.
 
 Sederhananya, `set parea` memungkinkan kita untuk lebih leluasa untuk memplot beberapa panel sesuai dengan ukuran dan posisi display. Namun, kita harus mengerti di posisi mana dan koordinat display berapa panel tersebut ingin di plot.
 
@@ -163,4 +163,4 @@ endwhile
 ## Notes
 [^1]: [http://cola.gmu.edu/grads/gadoc/gradcomdsetparea.html](http://cola.gmu.edu/grads/gadoc/gradcomdsetparea.html){:target="_blank"}
 [^2]: [http://cola.gmu.edu/grads/gadoc/gradcomdsetvpage.html](http://cola.gmu.edu/grads/gadoc/gradcomdsetvpage.html){:target="_blank"}
-[^3]: [http://cola.gmu.edu/grads/gadoc/colorcontrol.html](http://cola.gmu.edu/grads/gadoc/colorcontrol.html){:target="_blank/}
+[^3]: [http://cola.gmu.edu/grads/gadoc/colorcontrol.html](http://cola.gmu.edu/grads/gadoc/colorcontrol.html){:target="_blank/"}

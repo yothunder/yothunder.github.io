@@ -3,7 +3,7 @@ title: Budget Air Atmosfer
 author: wtyo
 date: 2022-10-24 10:00:00 +0700 
 categories: [Blogging] 
-tags: [met]
+tags: [met, physical meteorology]
 math: true
 ---
 
