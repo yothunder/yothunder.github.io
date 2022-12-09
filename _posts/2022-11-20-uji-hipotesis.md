@@ -7,7 +7,33 @@ tags: [met, stat]
 math: true
 ---
 
+<div style="text-align: right;"><input onclick="window.print()" type="button" value="Print this page" /></div><br>
+
 Sebuah uji hipotesis statistik dilakukan berdasarkan data sampel untuk menguji apakah hipotesis yang diajukan dapat diterima atau ditolak. Dalam hal ini, hipotesis statistik mengacu pada asumsi mengenai parameter populasi[^1].
+
+> <details>
+    <summary>Table of Contents</summary>
+    <ul style="list-style: none">
+        <li>
+            <a href="https://yothunder.github.io/posts/uji-hipotesis/#langkah">Langkah</a>
+            <ol>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#1-ajukan-hipotesis">Ajukan hipotesis</a></li>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#2-tentukan-level-signifikan">Tentukan level signifikan</a></li>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#3-tentukan-uji-statistik">Tentukan uji statistik</a></li>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#4-interpretasi-hasil">Interpretasi hasil</a></li>
+            </ol>
+        </li>
+        <li>
+            <a href="https://yothunder.github.io/posts/uji-hipotesis/#contoh-penerapan">Contoh penerapan</a>
+            <ol>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#1-merumuskan-hipotesis">Merumuskan hipotesis</a></li>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#2-menentukan-level-signifikan">Menentukan level signifikan</a></li>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#3-melakukan-uji-statistik">Melakukan uji statistik</a></li>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#4-menentukan-level-kritis">Menentukan level kritis</a></li>
+                <li><a href="https://yothunder.github.io/posts/uji-hipotesis/#5-interpretasi-hasil">Interpretasi hasil</a></li>
+            </ol>
+        </li>
+    </ul>
 
 ## Langkah
 
@@ -29,7 +55,7 @@ Jika p-value berada diluar level signifikan, maka H0 ditolak atau H1 diterima da
 
 ## Contoh penerapan
 
-Dalam studi meteorologi atau klimatologi, seringkali kita mengkaji suatu fenomena dan menghubungkannya dengan variabel meteorologi. Pada contoh ini, kita akan mencoba melakukan uji signifikansi apakah [*cold surge* (CS) dan *cross equatorial northerly surge* (CENS)](https://yothunder.github.io/posts/cold-surge-cross-equatorial-northerly-surge/){:target="_blank"} berpengaruh terhadap transpor uap air ketika berpropagasi di Benua Maritim Bagian Barat. 
+Dalam studi meteorologi atau klimatologi, seringkali kita mengkaji suatu fenomena dan menghubungkannya dengan variabel meteorologi. Pada contoh ini, kita akan mencoba melakukan uji signifikansi apakah [*cold surge* (CS) dan *cross equatorial northerly surge* (CENS)](https://yothunder.github.io/posts/cold-surge-cross-equatorial-northerly-surge/){:target="_blank"} berpengaruh terhadap transpor uap air ketika berpropagasi di Benua Maritim Bagian Barat.
 
 Data yang digunakan adalah data model ERA5, rentang tahun 2010-2019 dengan resolusi temporal harian.
 
@@ -40,7 +66,7 @@ H1 = rata-rata variabel transpor uap air saat kejadian CS dan CENS tidak sama de
 
 ### 2. Menentukan level signifikan (𝛼)
 
-Dalam penelitian ini, level signifikan yang diambil bernilai 5%.
+Level signifikan yang diambil bernilai 5%.
 
 ### 3. Melakukan uji statistik
 
@@ -57,6 +83,8 @@ Oleh karena uji statistik dilakukan menggunakan metode student-t test dua sisi, 
 ### 5. Interpretasi hasil
 
 H0 diterima apabila p-value berada pada rentang ± 𝛼⁄2. Sedangkan H0 ditolak apabila p-value bernilai lebih besar atau kurang dari sama dengan nilai ± 𝛼⁄2. Dengan ditolaknya H0, maka perbedaan variabel saat kejadian CS atau CENS dengan variabel pada kondisi reratanya dapat dikatakan bermakna atau signifikan secara statistik.
+
+##
 
 ## Notes
 

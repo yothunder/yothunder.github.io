@@ -10,12 +10,26 @@ pin: true
 
 <div style="text-align: right;"><input onclick="window.print()" type="button" value="Print this page" /></div><br>
 
+Meteorologi merupakan bagian dari ilmu atmosfer dengan fokus studi pada atmosfer yang berhubungan langsung dengan kehidupan manusia, yaitu lapisan terendah (troposfer), dimana cuaca terjadi pada lapisan tersebut. Fokus utama dari studi meteorologi adalah memahami setiap gerak dan sirkulasi atmosfer yang mengakibatkan terjadinya cuaca serta penekanannya pada prediksi di masa yang akan datang berdasarkan data observasi atau data model. Meteorologi juga bisa dibilang termasuk dalam ranah lingkup ilmu geofisika sebab dalam mengupayakan pemahaman gerak atmosfer berikut dengan prediksinya memanfaatkan hukum-hukum fisika.
+
+> <details>
+    <summary>Table of Contents</summary>
+    <ul style="list-style: none">
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#fisika-meteorologi">Fisika meteorologi</a></li>
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#dinamika-meteorologi">Dinamika meteorologi</a></li>
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#sistem-cuaca">Sistem cuaca</a></li>
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#analisis-dan-prediksi-cuaca">Analisis dan prediksi cuaca</a></li>
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#observasi-dan-instrumentasi">Observasi dan instrumentasi</a></li>
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#kimia-atmosfer">Kimia atmosfer</a></li>
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#meteorologi-terapan">Meteorologi terapan</a></li>
+        <li><a href="https://yothunder.github.io/posts/ruang-lingkup-meteorologi/#lintas-bidang--interdisciplinary-field">Lintas Bidang / Interdisciplinary field</a></li>
+    </ul>
+
+
 ![Cumulonimbus](https://raw.githubusercontent.com/yothunder/yothunder.github.io/main/img/posts/cloudsfromabove.jpg){: .shadow}
 <p style="text-align: center; font-size: 14px">Credit: <a href="https://earthobservatory.nasa.gov/images/149490/cloudscape-at-dawn-northwest-atlantic" target="_blank">nasa.gov</a></p>
 
 > *We just take it for granted for every daily sign from nature. Have we ever realize that every single detail its came from the deepest love from the creator*?
-
-Meteorologi merupakan bagian dari ilmu atmosfer dengan fokus studi pada atmosfer yang berhubungan langsung dengan kehidupan manusia, yaitu lapisan terendah (troposfer), dimana cuaca terjadi pada lapisan tersebut. Fokus utama dari studi meteorologi adalah memahami setiap gerak dan sirkulasi atmosfer yang mengakibatkan terjadinya cuaca serta penekanannya pada prediksi di masa yang akan datang berdasarkan data observasi atau data model. Meteorologi juga bisa dibilang termasuk dalam ranah lingkup ilmu geofisika sebab dalam mengupayakan pemahaman gerak atmosfer berikut dengan prediksinya memanfaatkan hukum-hukum fisika.
 
 ## Fisika Meteorologi
 
