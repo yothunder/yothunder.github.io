@@ -119,37 +119,37 @@ begin
 
     ;-Vertically Integrated Horizontal Moisture flux
 
-        uq_dpg          = uq*dpgq                         ; mass weighted 'uq'; [m/s][g/kg][kg/m2]=>[m/s][g/kg]
-        iuq             = dim_sum_n(uq_dpg, 1)
-        iuq@long_name   = "Integrated Zonal UQ [uq*dpg]" 
-        iuq@LONG_NAME   = "Sum: Mass Weighted Integrated Zonal Moisture Flux [uq*dpg]" 
-        iuq@units       = "[m/s][g/kg]"
-        copy_VarCoords(u(:,0,:,:), iuq)                ; (time,lat,lon)
-        delete(uq_dpg)
+    uq_dpg          = uq*dpgq                         ; mass weighted 'uq'; [m/s][g/kg][kg/m2]=>[m/s][g/kg]
+    iuq             = dim_sum_n(uq_dpg, 1)
+    iuq@long_name   = "Integrated Zonal UQ [uq*dpg]" 
+    iuq@LONG_NAME   = "Sum: Mass Weighted Integrated Zonal Moisture Flux [uq*dpg]" 
+    iuq@units       = "[m/s][g/kg]"
+    copy_VarCoords(u(:,0,:,:), iuq)                ; (time,lat,lon)
+    delete(uq_dpg)
 
-        vq_dpg          = vq*dpgq                         ; mass weighted 'vq'; [m/s][g/kg][kg/m2]=>[m/s][g/kg] 
-        ivq             = dim_sum_n(vq_dpg, 1)
-        ivq@long_name   = "Integrated Meridional VQ [vq*dpg]" 
-        ivq@LONG_NAME   = "Sum: Mass Weighted Integrated Meridional Moisture Flux [vq*dpg]" 
-        ivq@units       = "[m/s][g/kg]"
-        copy_VarCoords(v(:,0,:,:), ivq)                ; (time,lat,lon)
-        delete(vq_dpg)
+    vq_dpg          = vq*dpgq                         ; mass weighted 'vq'; [m/s][g/kg][kg/m2]=>[m/s][g/kg] 
+    ivq             = dim_sum_n(vq_dpg, 1)
+    ivq@long_name   = "Integrated Meridional VQ [vq*dpg]" 
+    ivq@LONG_NAME   = "Sum: Mass Weighted Integrated Meridional Moisture Flux [vq*dpg]" 
+    ivq@units       = "[m/s][g/kg]"
+    copy_VarCoords(v(:,0,:,:), ivq)                ; (time,lat,lon)
+    delete(vq_dpg)
     
     ;-Vertically Integrated Horizontal Moisture flux Divergence
 
-        mfd_dpg        = mfd*dpgq                         ;  [g/(kg-s)][kg/m2] => [g/(m2-s)]
-        imfd           = dim_sum_n(mfd_dpg, 1)
-        imfd@long_name = "Integrated Mass Wgt MFD" 
-        imfd@LONG_NAME = "Integrated Mass Weighted Moisture Flux Divergence" 
-        imfd@units     = "(kg/m**2)/s"
-        copy_VarCoords(u(:,0,:,:), imfd)               ; (time,lat,lon)
-        delete(mfd_dpg)
+    mfd_dpg        = mfd*dpgq                         ;  [g/(kg-s)][kg/m2] => [g/(m2-s)]
+    imfd           = dim_sum_n(mfd_dpg, 1)
+    imfd@long_name = "Integrated Mass Wgt MFD" 
+    imfd@LONG_NAME = "Integrated Mass Weighted Moisture Flux Divergence" 
+    imfd@units     = "(kg/m**2)/s"
+    copy_VarCoords(u(:,0,:,:), imfd)               ; (time,lat,lon)
+    delete(mfd_dpg)
 
-        vimfd           =  imfd                           ; keep meta data                         
-        ; VIMFD           = -VIMFD                          ; Note the preceding -1 [negative precedes integration] 
-        vimfd@long_name = "Vertically Integrated Moisture Flux Divergence"
-        vimfd@units     = "(kg/m**2)/s"
-        vimfd@info      = "Term 2 in moisture budget eq."
+    vimfd           =  imfd                           ; keep meta data                         
+    ; VIMFD           = -VIMFD                          ; Note the preceding -1 [negative precedes integration] 
+    vimfd@long_name = "Vertically Integrated Moisture Flux Divergence"
+    vimfd@units     = "(kg/m**2)/s"
+    vimfd@info      = "Term 2 in moisture budget eq."
     
     print("")
     print("Function moisture_transport is done")
