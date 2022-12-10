@@ -2,7 +2,7 @@
 title: 'Cold Surge dan Cross Equatorial Northerly Surge'
 author: wtyo
 date: 2022-11-21 07:00:00 +0700 
-categories: [Blogging] 
+categories: [Meteorology & Climatology] 
 tags: [met, monsoon, cold surge]
 math: true
 ---

@@ -2,7 +2,7 @@
 title: Moisture Flux Divergence
 author: wtyo
 date: 2022-10-31 07:00:00 +0700 
-categories: [Blogging] 
+categories: [Meteorology & Climatology] 
 tags: [met, physical meteorology]
 math: true
 ---

@@ -2,7 +2,7 @@
 title: Ruang Lingkup Meteorologi 
 author: wtyo 
 date: 2022-10-10 11:40:00 +0700 
-categories: [Blogging] 
+categories: [Meteorology & Climatology] 
 tags: [met] 
 toc: true
 pin: true 

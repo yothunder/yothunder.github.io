@@ -2,7 +2,7 @@
 title: Looping untuk Plotting Multi Panel di GrADS
 author: wtyo
 date: 2022-11-14 07:00:00 +0700 
-categories: [Blogging]
+categories: [Meteorology & Climatology]
 tags: [met, data visualization]
 math: true
 ---

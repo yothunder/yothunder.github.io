@@ -2,7 +2,7 @@
 title: Why does Convection Weaken over Sumatra Island in an Active Phase of the MJO?
 author: wtyo
 date: 2022-11-7 19:00:00 +0700 
-categories: [Blogging] 
+categories: [Meteorology & Climatology] 
 tags: [met, physical meteorology, convection, MJO]
 math: true
 ---
