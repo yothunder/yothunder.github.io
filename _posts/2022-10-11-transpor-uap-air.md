@@ -2,7 +2,7 @@
 title: Transpor Uap Air
 author: wtyo 
 date: 2022-10-17 09:00:00 +0700 
-categories: [Blogging] 
+categories: [Meteorology & Climatology] 
 tags: [met, physical meteorology]
 math: true
 ---
@@ -158,6 +158,7 @@ begin
     return( [/ uq, vq, iuq, ivq, mfd, vimfd /] )
 end
 ```
+{: file='_code/moisture_transport.ncl'}
 
 ## Output
 
