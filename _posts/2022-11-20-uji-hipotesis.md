@@ -272,7 +272,7 @@ begin
 end
 
 ```
-{: file='_sass/ttest.ncl'}
+{: file='_sass/moisture_transport.ncl'}
 
 Script diatas menghasilkan output file berformat `*.netcdf` yang nantinya divisualisasikan menggunakan GrADS untuk diinterpretasikan hasil dari uji signifikansinya. Supaya tidak terlalu panjang, kita akan lanjutkan proses visualisasi dan interpretasi di postingan berikut .
 
