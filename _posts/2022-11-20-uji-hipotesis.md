@@ -2,7 +2,7 @@
 title: 'Uji Hipotesis Statistik: Penerapannya dalam Meteorologi/Klimatologi'
 author: wtyo
 date: 2022-11-28 07:00:00 +0700 
-categories: [Statistics, Meteorology & Climatology] 
+categories: [Meteorology & Climatology, Statistics] 
 tags: [met, stat]
 math: true
 ---
