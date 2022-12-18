@@ -50,7 +50,14 @@ Diterima atau tidaknya hipotesis bergantung pada area dimana nilai probabilitas 
 
 Uji statistik dilakukan untuk menghasilkan nilai p-value yang nantinya digunakan sebagai penentu apakah hipotesis yang diajukan sebelumnya diterima atau ditolak. Terdapat beberapa jenis uji statistik yang bisa digunakan, bergantung pada seperti apa sampel data yang digunakan [^2].
 
-### 4. Interpretasi hasil
+### 4. Menentukan level kritis ($\alpha$)
+
+Area lingkup probabilitas dibatasi berdasarkan dua jenis, satu sisi dan dua sisi. Apabila satu sisi, maka level kritis sama dengan level signifikan. Sementara, apabila dua sisi, maka level kritis bernilai positif dan negartif level signifikan per dua ($ \pm \frac{\alpha}{2} $)[^3].
+
+![Level signifikan](https://raw.githubusercontent.com/yothunder/yothunder.github.io/a9b87a086ce96e89ad52dad97de11abf22340206/img/posts/stat_siglevel.png){: .shadow }
+<p style="text-align: center; font-size: 14px">Level signifikan.</p>
+
+### 5. Interpretasi hasil
 
 Jika p-value berada diluar level signifikan, maka H0 ditolak atau H1 diterima dan data sampel dipengaruhi oleh penyebab tertentu. Begitu juga sebaliknya, jika p-value berada pada level signifikan, maka H0 diterima atau H1 ditolak dan data sampel tidak dipengaruhi oleh suatu penyebab tertentu (murni karena probabilitas).
 
@@ -65,9 +72,9 @@ Data yang digunakan adalah data model ERA5, rentang tahun 2010-2019 dengan resol
 H0 = rata-rata variabel transpor uap air saat kejadian CS dan CENS sama dengan rata-rata variabel secara keseluruhan.
 H1 = rata-rata variabel transpor uap air saat kejadian CS dan CENS tidak sama dengan rata-rata variabel secara keseluruhan.
 
-### 2. Menentukan level signifikan (𝛼)
+### 2. Menentukan level signifikan ($ \alpha $)
 
-Level signifikan yang diambil bernilai 5%.
+Level signifikan yang diambil bernilai 5% atau 0.05.
 
 ### 3. Melakukan uji statistik
 
@@ -79,11 +86,11 @@ di mana $\overline{x}$, $\overline{s}$, dan $n$ masing-masing merupakan rata-rat
 
 ### 4. Menentukan level kritis
 
-Oleh karena uji statistik dilakukan menggunakan metode student-t test dua sisi, maka level kritis adalah ± 𝛼⁄2. Sehingga, level signifikan menjadi 2.5% untuk masing-masing sisi. Nilai 2.5% dalam uji signifikansi termasuk dalam kategori kuat (*substantial*) (Wilks, 2019).[3]
+Oleh karena uji statistik dilakukan menggunakan metode student-t test dua sisi, maka level kritis adalah $\pm \frac{\alpha}{2}$. Sehingga, level signifikan menjadi 2.5% untuk masing-masing sisi. Nilai 2.5% dalam uji signifikansi termasuk dalam kategori kuat (*substantial*) (Wilks, 2019).[3]
 
 ### 5. Interpretasi hasil
 
-H0 diterima apabila p-value berada pada rentang ± 𝛼⁄2. Sedangkan H0 ditolak apabila p-value bernilai lebih besar atau kurang dari sama dengan nilai ± 𝛼⁄2. Dengan ditolaknya H0, maka perbedaan variabel saat kejadian CS atau CENS dengan variabel pada kondisi reratanya dapat dikatakan bermakna atau signifikan secara statistik.
+H0 diterima apabila p-value berada pada rentang $ \pm \frac{\alpha}{2} $. Sedangkan H0 ditolak apabila p-value bernilai lebih besar atau kurang dari sama dengan nilai $ \pm \frac{\alpha}{2} $. Dengan ditolaknya H0, maka perbedaan variabel saat kejadian CS atau CENS dengan variabel pada kondisi reratanya dapat dikatakan bermakna atau signifikan secara statistik.
 
 ## Implementasi di NCL
 
@@ -274,7 +281,7 @@ end
 ```
 {: file='_sass/moisture_transport.ncl'}
 
-Script diatas menghasilkan output file berformat `*.netcdf` yang nantinya divisualisasikan menggunakan GrADS untuk diinterpretasikan hasil dari uji signifikansinya. Supaya tidak terlalu panjang, kita akan lanjutkan proses visualisasi dan interpretasi di postingan berikut .
+Script diatas menghasilkan output file berformat `*.netcdf` yang nantinya divisualisasikan menggunakan GrADS untuk diinterpretasikan hasil dari uji signifikansinya. Supaya tidak terlalu panjang, kita akan lanjutkan proses visualisasi dan interpretasi di postingan berikut [Visualisasi Uji Signifikansi Statistik Menggunakan GrADS](https://yothunder.github.io/posts/visualisasi-uji-signifikansi-statistik-menggunakan-grads/){:target="_blank"}.
 
 ## Notes
 
