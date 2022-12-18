@@ -2,12 +2,18 @@
 title: 'Visualisasi Uji Signifikansi Statistik Menggunakan GrADS'
 author: wtyo
 date: 2022-12-5 07:00:00 +0700 
-categories: [Statistics, Meteorology & Climatology]
+categories: [Meteorology & Climatology, Statistics]
 tags: [met, stat, data visualization]
 math: true
 ---
 
 <div style="text-align: right;"><input onclick="window.print()" type="button" value="Print this page" /></div><br>
+
+Postingan ini merupakan lanjutan dari postingan sebelumnya [Uji Hipotesis Statistik: Penerapannya dalam Meteorologi/Klimatologi](https://yothunder.github.io/posts/uji-hipotesis/).
+
+*Script* dibawah ini berguna untuk menampilkan variabel transpor uap air secara spasial yang telah mengalami uji signifikansi statistik.
+
+## Script GrADS
 
 ```csharp
 
@@ -191,6 +197,10 @@ function arrow(x,y,len,scale)
 'set strsiz 0.15 0.18'
 'draw string 'x' 'y-0.25' 'scale
 return
-
 ```
 {: file='_sass/visstat.gs'}
+
+## Output
+
+![Transpor uap air](https://raw.githubusercontent.com/yothunder/yothunder.github.io/main/img/posts/vimfd.png){: .shadow }
+<p style="text-align: center; font-size: 14px">Transpor uap air berikut dengan divergensinya pada kasus <em>cold surge</em> (CS) dan <em>cross equatorial northerly surge</em> (CENS). Nilai positif (negatif) menandakan divergensi (konvergensi) dari transpor uap air.</p>
