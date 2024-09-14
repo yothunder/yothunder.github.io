@@ -5,7 +5,6 @@ date: 2022-10-10 11:40:00 +0700
 categories: [Meteorology & Climatology] 
 tags: [met] 
 toc: true
-pin: true 
 --- 
 
 <div style="text-align: right;"><input onclick="window.print()" type="button" value="Print this page" /></div><br>
