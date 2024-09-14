@@ -26,7 +26,7 @@ title: Yo Thunder                          # the main title
 tagline: A personal website from Suwignyo Prasetyo  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A personal website from Suwignyo Prasetyo.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://yothunder.github.io'
