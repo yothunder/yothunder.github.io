@@ -136,17 +136,8 @@ The following directory structures is should not be consider as a strick rules. 
 
 The following script is the workflow of OFS model, from pre to post processing.
 
+## 3.1. Setting up environment and load modules
 ```bash
-#!/bin/bash
-# Runner script for wavewatch3 with GFS forcing
-#
-# Default:
-#          ./ww3_gfs.sh <hs_mult>
-#
-# Overide date:
-#          ./ww3_gfs.sh <hs_mult> 2019010112 <yes>
-#
-
 module purge
 module load compiler
 module load mpi
@@ -193,7 +184,10 @@ function delmin() {
         logging "Deletting : rm -rf $tes"
         rm -rf $tes
 }
-
+```
+## 3.2. WW3 Preprocessing
+### 
+```bash
 logging ""
 logging "########################################################################"
 logging "#                    Daily GFS Downloader and Dumper                   #"
