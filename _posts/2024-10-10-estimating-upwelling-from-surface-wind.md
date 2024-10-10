@@ -115,4 +115,4 @@ The script above is a part of the production script to generate upwelling maps t
 
 # References
 
-[^1] https://doi.org/10.3390/rs14071682
+[^1]: https://doi.org/10.3390/rs14071682
