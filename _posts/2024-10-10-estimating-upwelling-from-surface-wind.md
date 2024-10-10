@@ -115,4 +115,4 @@ The script above is a part of the production script to generate upwelling maps t
 
 # References
 
-[^1]: https://doi.org/10.3390/rs14071682
+[^1]: Simanjuntak, F., & Lin, T. H. (2022). Monsoon effects on chlorophyll-a, sea surface temperature, and ekman dynamics variability along the southern coast of lesser Sunda islands and its relation to ENSO and IOD based on satellite observations. Remote Sensing, 14(7), 1682. https://doi.org/10.3390/rs14071682
