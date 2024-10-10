@@ -11,7 +11,7 @@ Upwelling region can be estimated from surface wind. This is done through Ekman 
 
 # Data
 
-We will use data from BMKG-OFS, produced by Center for Marine Meteorology. This data contains $u$ and $v$ component of wind vector. It has $0.0625\degree \times 0.0625\degree$ spatial resolution and 3-hourly temporal resolution. 
+We will use data from BMKG-OFS, produced by Center for Marine Meteorology. This data contains $u$ and $v$ component of wind vector. It has $0.0625° \times 0.0625°$ spatial resolution and 3-hourly temporal resolution. 
 
 You can request the sample of the data by contacting me, or feel free to use your own data, you only need $u$ and $v$ component of wind vector in gridded field. 
 
