@@ -3,16 +3,19 @@
 -
   type: github
   icon: 'fab fa-github'
+  url:  'https://github.com/yothunder'
 -
   type: linkedin
   icon: 'fab fa-linkedin'
-  noblank: true
--
-  type: twitter
-  icon: 'fab fa-twitter'
+  url:  'https://www.linkedin.com/in/tyo-suwignyo/'
+# -
+#   type: twitter
+#   icon: 'fab fa-twitter'
+#   url:  'https://twitter.com/yothunder7'
 -
   type: email
   icon: 'fas fa-envelope'
+  url:  'mailto:tyo.suwignyo@gmail.com'
   noblank: true            # open link in current tab
 -
   type: rss
