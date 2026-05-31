@@ -4,6 +4,10 @@
   type: github
   icon: 'fab fa-github'
 -
+  type: linkedin
+  icon: 'fab fa-linkedin'
+  noblank: true
+-
   type: twitter
   icon: 'fab fa-twitter'
 -
