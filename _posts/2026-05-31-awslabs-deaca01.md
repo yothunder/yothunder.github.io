@@ -1,6 +1,6 @@
 --- 
 title: AWS Data Engineering (DEA-C01) Labs Summary & Review Guide
-author: wtyo, gemini
+author: [wtyo, gemini]
 date: 2026-05-31 15:15:00 +0700 
 categories: [Data Engineering and Analytics]
 tags: [data-engineering-analytics]
